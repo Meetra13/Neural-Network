@@ -5,7 +5,7 @@
 using namespace std;
 
 void func() {
-  static int a = 1;
+  static int a = 0;
   cout << ++a << endl;
 }
 
